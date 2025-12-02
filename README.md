@@ -46,6 +46,16 @@ pip install -e .
 pip install numpy==1.26.4
 pip install hydra-core
 pip install wandb
+pip install pot
+pip install flow_matching
+pip install vector_quantize_pytorch
+pip install trimesh
+pip install mink
+pip install transforms3d
+pip install einops
+pip install joblib
+pip install open3d
+pip install easydict
 ```
 you may need to run the following command to avoid potential errors related to MKL such as `undefined symbol: iJIT_NotifyEvent`
 ```
