@@ -17,7 +17,7 @@ conda activate dexlearn
 
 # pytorch
 conda install -c conda-forge mkl=2020.2 -y
-conda install pytorch==2.0.1 pytorch-cuda=11.7 -c pytorch -c nvidia 
+conda install pytorch==2.1.0 pytorch-cuda=11.8 -c pytorch -c nvidia 
 
 # pytorch3d
 wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch3d/linux-64/pytorch3d-0.7.8-py310_cu118_pyt210.tar.bz2
@@ -32,7 +32,7 @@ cd ...
 # MinkowskiEngine
 cd third_party/MinkowskiEngine
 sudo apt install libopenblas-dev
-export CUDA_HOME=/usr/local/cuda-11.7
+export CUDA_HOME=/usr/local/cuda-11.8
 python setup.py install --blas=openblas
 cd ...
 
