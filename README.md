@@ -48,7 +48,7 @@ pip install hydra-core
 pip install wandb
 pip install pot
 pip install flow_matching
-pip install vector_quantize_pytorch
+pip install vector_quantize_pytorch==1.25
 pip install trimesh
 pip install mink
 pip install transforms3d
