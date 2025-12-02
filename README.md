@@ -45,6 +45,7 @@ cd ...
 pip install -e .
 pip install numpy==1.26.4
 pip install hydra-core
+pip install wandb
 ```
 you may need to run the following command to avoid potential errors related to MKL such as `undefined symbol: iJIT_NotifyEvent`
 ```
