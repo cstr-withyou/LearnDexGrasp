@@ -49,7 +49,7 @@ pip install hydra-core
 pip install wandb
 pip install pot
 pip install flow_matching
-pip install vector_quantize_pytorch==1.10  (Note that einx must be compatible with pytorch 2.1.0, and 0.1.1 einx could be ok)
+pip install vector_quantize_pytorch==1.23.2
 pip install trimesh
 pip install mink
 pip install transforms3d
