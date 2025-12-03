@@ -57,6 +57,7 @@ pip install einops
 pip install joblib
 pip install open3d
 pip install easydict
+pip install geomstats
 ```
 you may need to run the following command to avoid potential errors related to MKL such as `undefined symbol: iJIT_NotifyEvent`
 ```
