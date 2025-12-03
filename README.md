@@ -32,6 +32,7 @@ cd ...
 # MinkowskiEngine
 cd third_party/MinkowskiEngine
 sudo apt install libopenblas-dev
+conda install -c conda-forge openblas
 export CUDA_HOME=/usr/local/cuda-11.8
 python setup.py install --blas=openblas
 cd ...
